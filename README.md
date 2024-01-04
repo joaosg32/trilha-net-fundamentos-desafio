@@ -36,3 +36,12 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+
+## Resolução
+O código foi finalizado conforme proposto pelo desafio. Foi implementado validação de dados nas entradas do usuário (preço inicial, preço por hora, e quantidade de horas que o veículo ficou estacionado), para evitar exceções no programa. A validação aplicada consiste em um looping que pede ao usúario inserir o dado, que é verificado, e que finaliza apenas se a entrada seja validada.
+
+## Futuras atualizações
+- Implementar validação de placa (aceitar apenas modelos reais).
+- Utilizar a hora de entrada e de saída do veículo do sistema para cálculo do valor a pagar.
+- Implementar opção de salvar histórico de carros, horários e valores.
